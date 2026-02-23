@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Lado esquerdo */
+.lado-esquerdo {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  background-color: white;
+  padding: 40px 60px;
+  width: 300px;
+}
+
+.c h2 {
+  text-align: center;
+  color: #2E7D32;
+  margin-bottom: 25px;
+}
+
+.c label {
+  font-weight: bold;
+  color: black;
+}
+
+.c input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.c input:focus {
+  border-color: #2E7D32;
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.4);
+}
+
+.c button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #2E7D32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.c button:hover {
+  background-color: #1B5E20;
+}
+
+.c a {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #1B5E20;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.c a:hover {
+  text-decoration: underline;
+}
+
+/* Lado direito */
+.lado-direito {
+  width: 50%;
+  background: linear-gradient(135deg, #2E7D32, #1B5E20);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lado-direito h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.lado-direito p {
+  font-size: 18px;
+  opacity: 0.9;
+}

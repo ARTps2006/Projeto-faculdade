@@ -10,7 +10,7 @@ body {
 
 /* Lado esquerdo */
 .lado-esquerdo {
-  width: 50%;
+  width: 60%;
   background: linear-gradient(135deg, #2E7D32, #1B5E20);
   padding-right: 40px;
   display: flex;
@@ -23,6 +23,7 @@ body {
   border-radius: 8px;
   background-color: white;
   padding: 40px 60px;
+  margin-left: 40px;
   width: 300px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }

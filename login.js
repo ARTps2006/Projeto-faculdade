@@ -12,5 +12,18 @@ function home() {
         return;
     }
 
+        if (!email.includes("@.com")) {
+        mensagem.innerText = "Digite um email válido com @.com";
+        mensagem.classList.add("mostrar");
+        return;
+    }
+
+    if (senha.length < 6) {
+    mensagem.innerText = "A senha deve ter pelo menos 6 caracteres!";
+    mensagem.classList.add("mostrar");
+    return;
+}
+
+
     window.location.href = "home.html";
 }
